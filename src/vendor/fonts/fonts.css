@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./RobotoMono-Regular.woff2") format("woff2"),
+       url("./RobotoMono-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	font-style:  normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("./Quicksand-Bold.woff2") format("woff2"),
+	url("./Quicksand-Bold.woff") format("woff");
+}
