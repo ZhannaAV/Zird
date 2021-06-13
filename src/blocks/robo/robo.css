@@ -1,0 +1,11 @@
+.robo{
+	background-color: rgba(179,185,193,255);
+	padding: 73px 74px 91px;
+	box-sizing: border-box;
+}
+.robo__line_second{
+	transform: translateX(-156px) translateY(-156px);
+	overflow: hidden;
+}
+
+.robo__description{}

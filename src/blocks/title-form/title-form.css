@@ -1,0 +1,13 @@
+.title-form{
+	width: 196px;
+	height: 43px;
+	background-color: rgba(79,97,125,255);
+	display: flex;
+}
+
+.title{
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	font-weight: 400;
+}
