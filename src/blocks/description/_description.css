@@ -10,11 +10,28 @@
 .description__text{
 	margin: 0;
 	box-sizing: border-box;
-	padding-left: 10px;
+	padding: 4px 10px;
 	background-color: rgba(204,211,220,255);
 	font-size: 15px;
 	line-height: 15px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: rgba(43,49,55,255);
+	min-height: 71px;
+}
+.description__title-form{
+	width: 196px;
+	height: 43px;
+	background-color: rgba(79,97,125,255);
+	display: flex;
+	position: absolute;
+	top: -20px;
+	right: 20px;
+}
+
+.description__title{
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	font-weight: 400;
 }

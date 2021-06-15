@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 112" width="9" height="112">
+	<title>Zird</title>
+	<defs>
+		<image  width="9" height="112" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAABwAQMAAAD2cshaAAAAAXNSR0IB2cksfwAAAAZQTFRFcKO6cKO6EWIiXgAAAAJ0Uk5T9/8AbFXPAAAAE0lEQVR4nGNgYGD43zCKqIMYGAAivaSTWnCNYwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Zird">
+		<g id="decor">
+			<g id="decor line text">
+				<use id="decor_blue_line_text02" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -8,6 +8,14 @@
 }
 
 @font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-display: swap;
+	src: url("./RobotoMono-Italic.woff2") format("woff2"),
+	url("./RobotoMono-Italic.woff") format("woff");
+}
+
+@font-face {
 	font-family: 'Quicksand';
 	font-style:  normal;
 	font-weight: 700;
@@ -15,3 +23,5 @@
 	src: url("./Quicksand-Bold.woff2") format("woff2"),
 	url("./Quicksand-Bold.woff") format("woff");
 }
+
+

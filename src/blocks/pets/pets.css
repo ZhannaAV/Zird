@@ -1,0 +1,8 @@
+.pets{
+	background-color: rgba(179,185,193,255);
+	padding: 131px 0 164px;
+}
+
+.pets__description{
+	margin-left: 43%;
+}

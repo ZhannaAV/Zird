@@ -3,6 +3,7 @@
 	padding: 73px 0 91px;
 	box-sizing: border-box;
 	position: relative;
+	overflow: hidden;
 }
 .robo__item{
 	display: inline-block;
@@ -40,12 +41,6 @@
 	margin: 69px auto;
 	max-width: 960px;
 
-}
-
-.robo__title{
-	position: absolute;
-	top: -20px;
-	right: 20px;
 }
 
 .robo__decor-triangle{

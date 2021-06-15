@@ -1,5 +1,5 @@
-.about-us{
-	background-color: rgba(205,211,221,255);
+.about-us {
+	background-color: rgba(205, 211, 221, 255);
 	padding-top: 123px;
 	padding-bottom: 131px;
 	position: relative;
@@ -7,7 +7,7 @@
 	color: #192130;
 }
 
-.about-us__title{
+.about-us__title {
 	margin: 0 0 84px;
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
@@ -16,14 +16,15 @@
 	line-height: 30px;
 }
 
-.about-us__decor-circle{
-	position: absolute;
-	top: 123px;
-	left: 48%;
+.about-us__title::before {
+	content: url('../../images/decor_circle_under_About_us.svg');
 	z-index: -1;
+	position: relative;
+	top: 15px;
+	left: 28px;
 }
 
-.about-us__article{
+.about-us__article {
 	margin-left: 14%;
 	margin-right: 16%;
 	font-weight: 400;
@@ -33,7 +34,7 @@
 	position: relative;
 }
 
-.about-us__article::before{
+.about-us__article::before {
 	content: url('../../images/decor_hello.svg');
 	position: absolute;
 	top: -54px;
@@ -42,11 +43,24 @@
 	height: 33px;
 }
 
-.about-us__text{
+.about-us__text {
 	margin: 0;
-	letter-spacing: 1.7px;
+	letter-spacing: 1.2px;
 }
 
-.about-us__text + .about-us__text{
+.about-us__text + .about-us__text {
 	margin-top: 30px;
+}
+
+.about-us__link-up {
+	position: absolute;
+	top: 60%;
+	right: 5%;
+}
+
+.about-us__decor-triangle{
+	position: absolute;
+	top: -188px;
+	right: -211px;
+	z-index: -1;
 }
