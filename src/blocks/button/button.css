@@ -12,6 +12,6 @@
 	cursor: pointer;
 }
 
-.button:active{
+.button:hover{
 	color: #d8d9d9;
 }

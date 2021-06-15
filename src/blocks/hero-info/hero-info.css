@@ -1,0 +1,36 @@
+.hero-info{
+	background-color: rgba(44,51,65,255);
+	opacity: .9;
+	width: 312px;
+	height: 234px;
+	position: absolute;
+	top: -15%;
+	left: -10%;
+	box-sizing: border-box;
+	padding: 19px 8px 19px 14px;
+}
+
+.hero-info__title{
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.hero-info__title > span{
+	font-weight: 500;
+}
+
+.hero-info__list{
+	margin: 14px 0 0;
+	padding-left: 10px;
+}
+
+.hero-info__text{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+}

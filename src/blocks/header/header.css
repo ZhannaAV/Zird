@@ -44,7 +44,7 @@
 }
 
 .header__item_type_framed:hover{
-	box-shadow: 2px 2px 2px 2px #ebcd71;
+	box-shadow: 0 0 5px rgba(232, 203, 112, 0.2);
 }
 
 .header__news-block{

@@ -5,33 +5,6 @@
 	position: relative;
 	overflow: hidden;
 }
-.robo__item{
-	display: inline-block;
-	position: relative;
-}
-
-.dist:hover ~ .robo__item-info_for_dist{
-	display: block;
-}
-
-.robo__item-info{
-	background-color: rgba(44,51,65,255);
-	opacity: .9;
-	width: 312px;
-	height: 234px;
-	position: absolute;
-	top: 15%;
-	left: 60%;
-}
-
-.robo__item-info_for_dist{
-	display: none;
-}
-
-.robo__line_second{
-	transform: translateX(-156px) translateY(-156px);
-	overflow: hidden;
-}
 
 .robo__description{
 	margin-left: 43%;
@@ -40,8 +13,37 @@
 .robo__table{
 	margin: 69px auto;
 	max-width: 960px;
-
 }
+
+.robo__item{
+	display: inline-block;
+	position: relative;
+}
+.robo__img{
+opacity: .99;
+}
+
+.robo__item-info{
+	display: none;
+}
+
+.robo__img:hover ~ .robo__item-info{
+	display: block;
+}
+
+.robo__img:hover ~ .robo__img{
+	display: none;
+}
+
+
+
+
+.robo__line_second{
+	transform: translateX(-156px) translateY(-156px);
+	overflow: hidden;
+}
+
+
 
 .robo__decor-triangle{
 	position: absolute;
