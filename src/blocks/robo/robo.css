@@ -1,11 +1,57 @@
 .robo{
 	background-color: rgba(179,185,193,255);
-	padding: 73px 74px 91px;
+	padding: 73px 0 91px;
 	box-sizing: border-box;
+	position: relative;
 }
+.robo__item{
+	display: inline-block;
+	position: relative;
+}
+
+.dist:hover ~ .robo__item-info_for_dist{
+	display: block;
+}
+
+.robo__item-info{
+	background-color: rgba(44,51,65,255);
+	opacity: .9;
+	width: 312px;
+	height: 234px;
+	position: absolute;
+	top: 15%;
+	left: 60%;
+}
+
+.robo__item-info_for_dist{
+	display: none;
+}
+
 .robo__line_second{
 	transform: translateX(-156px) translateY(-156px);
 	overflow: hidden;
 }
 
-.robo__description{}
+.robo__description{
+	margin-left: 43%;
+}
+
+.robo__table{
+	margin: 69px auto;
+	max-width: 960px;
+
+}
+
+.robo__title{
+	position: absolute;
+	top: -20px;
+	right: 20px;
+}
+
+.robo__decor-triangle{
+	position: absolute;
+	left: -206px;
+	top: -7px;
+}
+
+
