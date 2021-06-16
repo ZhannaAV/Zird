@@ -9,6 +9,8 @@
 	box-sizing: border-box;
 	padding: 19px 8px 19px 14px;
 	z-index: 100;
+	letter-spacing: normal;
+	text-align: left;
 }
 
 .hero-info__title{
