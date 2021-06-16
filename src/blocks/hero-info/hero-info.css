@@ -4,10 +4,11 @@
 	width: 312px;
 	height: 234px;
 	position: absolute;
-	top: -15%;
-	left: -10%;
+	top: 15%;
+	left: 60%;
 	box-sizing: border-box;
 	padding: 19px 8px 19px 14px;
+	z-index: 100;
 }
 
 .hero-info__title{
