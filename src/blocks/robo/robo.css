@@ -11,7 +11,7 @@
 }
 
 .robo__table{
-	margin: 69px auto;
+	margin: 69px auto -930px;
 	max-width: 1297px;
 	padding-left: 0;
 	list-style: none;
@@ -22,6 +22,7 @@
 .robo__item{
 	display: inline-block;
 	position: relative;
+	z-index: 10;
 }
 
 .robo__item-info{
@@ -32,6 +33,10 @@
 	display: block;
 }
 
+.robo__item:hover{
+z-index: 80;
+}
+
 
 .robo__decor-triangle{
 	position: absolute;
@@ -39,49 +44,21 @@
 	top: -7px;
 }
 
+
+/*------------смещения-----------*/
 .robo__item:nth-child(7n-6){
-	z-index: 21;
 	margin-left: 12%;
 }
 
-.robo__item:nth-child(2){
-	z-index: 20;
-}
 .robo__item:nth-child(7n-4){
-	z-index: 18;
 	margin-right: 12%;
 }
 
-.robo__item:nth-child(4){
-	z-index: 21;
+.robo__item:nth-child(n+4):nth-child(-n+7){
 	transform: translateY(-156px);
 }
 
-.robo__item:nth-child(5){
-	z-index: 20;
-	transform:translateY(-156px);
-}
-
-.robo__item:nth-child(6){
-	z-index: 19;
-	transform:translateY(-156px);
-}
-
-.robo__item:nth-child(7){
-	z-index: 18;
-	transform:translateY(-156px);
-}
-
-.robo__item:nth-child(8){
-	transform:translateY(-308px);
-}
-
-.robo__item:nth-child(9){
-	z-index: 20;
-	transform:translateY(-308px);
-}
-
-.robo__item:nth-child(10){
+.robo__item:nth-child(n+8):nth-child(-n+10){
 	transform:translateY(-308px);
 }
 
@@ -96,7 +73,7 @@
 .robo__item:nth-child(18){
 	transform:translateY(-773px);
 	margin-left: 15%;
-	z-index: 12;
+
 }
 .robo__item:nth-child(19){
 	transform:translateY(-773px);
@@ -104,8 +81,7 @@
 }
 .robo__item:last-child{
 	transform:translateY(-928px);
-	z-index: 10;
 }
-
+/*-----смещения конец--------*/
 
 
