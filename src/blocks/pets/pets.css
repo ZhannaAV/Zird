@@ -2,12 +2,41 @@
 	background-color: rgba(179,185,193,255);
 	padding: 131px 0 164px;
 	position: relative;
-	height: 700px;
 	z-index: 0;
 }
 
 .pets__description{
-	margin-left: 43%;
+	margin-left: calc(100% - 822px);
+}
+
+.pets__table{
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+	max-width: 911px;
+}
+
+.pets__table_plase_left{
+	margin-left: 56px;
+	margin-top: 140px;
+	letter-spacing: 15px;
+	margin-bottom: -65px;
+}
+
+.pets__table_plase_right{
+	margin-left: 349px;
+	letter-spacing: 8px;
+}
+
+.pets__item{
+display: inline-block;
+}
+
+.pets__item:nth-child(n+4):nth-child(-n+5){
+	transform:translateX(148px) translateY(-35px);
+}
+.pets__item_place_right:nth-child(n+4):nth-child(-n+5){
+	transform:translateX(148px);
 }
 
 .pets__decor-circle{
@@ -21,5 +50,19 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: -1;
+}
+
+.pets__decor-line-left{
+	position: absolute;
+	top: 649px;
+	left: 53px;
+	z-index: -1;
+}
+
+.pets__decor-line-right{
+	position: absolute;
+	bottom: 160px;
+	right: 0;
 	z-index: -1;
 }

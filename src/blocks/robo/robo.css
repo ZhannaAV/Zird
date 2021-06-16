@@ -8,7 +8,7 @@
 }
 
 .robo__description{
-	margin-left: 43%;
+	margin-left: calc(100% - 822px);
 }
 
 .robo__table{
