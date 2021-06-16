@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
+	z-index: 0;
 }
 
 .robo__description{
@@ -40,8 +41,31 @@ z-index: 80;
 
 .robo__decor-triangle{
 	position: absolute;
-	left: -206px;
-	top: -7px;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.robo__decor-right{
+	position: absolute;
+	right: 0;
+	top: 233px;
+	z-index: -1;
+}
+
+.robo__decor-bottom{
+	position: absolute;
+	right: 0;
+	bottom: 6px;
+	z-index: -1;
+}
+
+.robo__decor-lines{
+	position: absolute;
+	z-index: -1;
+	left: 63px;
+	bottom: 150px;
+
 }
 
 

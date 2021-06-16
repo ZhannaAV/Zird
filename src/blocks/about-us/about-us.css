@@ -60,7 +60,7 @@
 
 .about-us__decor-triangle{
 	position: absolute;
-	top: -188px;
-	right: -211px;
+	top: -180px;
+	right: 0;
 	z-index: -1;
 }

@@ -1,8 +1,70 @@
 .andro{
 	background-color: rgba(204,211,221,255);
 	padding: 116px 0 112px;
+	position: relative;
+	z-index: 0;
 }
 
 .andro__description{
 	margin-left: 4%;
+}
+
+.andro__table{
+	max-width: 1092px;
+	margin-top: 34px;
+	padding-left: 0;
+	margin-right: 6%;
+	margin-left: 17%;
+}
+
+.andro__item{
+	display: inline-block;
+}
+
+.andro__item:first-child{
+	margin-left: 24%;
+}
+
+.andro__item:nth-child(4){
+	margin-left: 37%;
+}
+
+.andro__item:nth-child(6){
+	margin-left: 50%;
+	margin-right: 25%;
+	transform:translateY(-140px);
+}
+
+.andro__item:nth-child(7){
+	margin: 0 37%;
+	transform:translateY(-210px);
+}
+
+.andro__item:nth-child(n+4):nth-child(-n+5){
+	transform:translateY(-70px);
+}
+.andro__item:nth-child(n+8):nth-child(-n+10){
+	transform:translateY(-280px);
+}
+
+
+.andro__decor-top{
+	position: absolute;
+	z-index: -1;
+	top: -80px;
+	left: 0;
+}
+
+.andro__decor-bottom{
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	right: 0;
+}
+
+.andro__decor-hexagons{
+	position: absolute;
+	z-index: -1;
+	top: 567px;
+	left: 253px;
 }

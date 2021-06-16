@@ -1,8 +1,25 @@
 .pets{
 	background-color: rgba(179,185,193,255);
 	padding: 131px 0 164px;
+	position: relative;
+	height: 700px;
+	z-index: 0;
 }
 
 .pets__description{
 	margin-left: 43%;
+}
+
+.pets__decor-circle{
+	position: absolute;
+	top: 54px;
+	right: 0;
+	z-index: -1;
+}
+
+.pets__decor-line-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }

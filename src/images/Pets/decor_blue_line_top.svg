@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532 28" width="532" height="28">
+	<title>Pets frame</title>
+	<defs>
+		<image  width="532" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhQAAAAcBAMAAADLmDuSAAAAAXNSR0IB2cksfwAAAA9QTFRFcKO6cKO6////cKO6cKO6el68nwAAAAV0Uk5T/wAAoVo0rfR/AAAAcUlEQVR4nO3XsQ2AIBBAURxBN9ANHMH9l7I7ExETCwKG99ur7iUQSEmS9KX5Py1b1VCgeKC4dU3W1ptnoYhqUxQnKFCgyO6KHtrrr43inaI4Ge+AoECRUxSbWm+ehSLyHYtQRCiirl+bBwoUKFCMRnECZMQIeUBMGaAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Pets frame">
+		<g id="decor">
+			<use id="decor_blue_line_top" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

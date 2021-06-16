@@ -4,7 +4,6 @@
 	position: relative;
 	z-index: 0;
 	color: #192130;
-	overflow: hidden;
 }
 .zird__title{
 	text-align: center;
@@ -84,12 +83,10 @@
 	letter-spacing: 2px;
 }
 
-
-
 .zird__decor-romb{
 	position: absolute;
 	top: 189px;
-	right: -107px;
+	right: 0;
 	z-index: -1;
 }
 
@@ -97,5 +94,12 @@
 	position: absolute;
 	z-index: -1;
 	top: 650px;
-	left: -71px;
+	left: 0;
+}
+
+.zird__decor-circle{
+	position: absolute;
+	left: 0;
+	top: -200px;
+	z-index: -1;
 }
