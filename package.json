@@ -1,7 +1,7 @@
 {
-  "name": "mesto",
+  "name": "Zird",
   "version": "1.0.0",
-  "description": "*Тестовое задание для fuse8*",
+  "description": "*Landing Zird*",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZhannaAV/fuse8.git"
+    "url": "git+https://github.com/ZhannaAV/Zird.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZhannaAV/mesto/issues"
+    "url": "https://github.com/ZhannaAV/Zird/issues"
   },
-  "homepage": "https://github.com/ZhannaAV/fuse8#readme",
+  "homepage": "https://github.com/ZhannaAV/Zird#readme",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
