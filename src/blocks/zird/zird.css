@@ -138,6 +138,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.zird{
+		padding-top: 90px;
+	}
 	.zird__title{
 		margin-bottom: 59px;
 	}
@@ -146,6 +149,9 @@
 	}
 	.zird__article_place_right{
 		margin-left: calc(100% - 831px);
+	}
+	.zird__decor-hexagon{
+		top: 60%;
 	}
 }
 
@@ -179,9 +185,7 @@
 	.zird__text-block{
 		margin-top: 15px;
 	}
-	.zird__decor-hexagon{
-		top: 60%;
-	}
+
 }
 
 @media screen and (max-width: 750px) {

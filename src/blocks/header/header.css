@@ -82,6 +82,8 @@
 	display: none;
 	margin-left: 20px;
 	position: relative;
+	overflow: visible;
+
 }
 
 .header__burger-img{
@@ -102,6 +104,8 @@
 	left: -30px;
 	box-sizing: border-box;
 	padding: 6px 4px 14px;
+	overflow: visible;
+
 }
 
 .header__burger-list{
@@ -111,6 +115,8 @@
 	font-size: 12px;
 	line-height: 15px;
 	text-align: right;
+	overflow: visible;
+
 }
 
 .header__burger-item + .header__burger-item{
