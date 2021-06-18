@@ -24,3 +24,9 @@
 .footer__decor{
 	left: calc(50% - translateX(-50%));
 }
+
+@media screen and (max-width: 425px) {
+	.footer__decor{
+		width: 152px;
+	}
+}
