@@ -56,3 +56,9 @@
 .description__button:hover{
 	color: #d8d9d9;
 }
+
+@media screen and (max-width: 890px) {
+.description{
+	width: 560px;
+}
+}

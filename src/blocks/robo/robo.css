@@ -8,7 +8,7 @@
 }
 
 .robo__description{
-	margin-left: calc(100% - 822px);
+	margin: 0 53px 0 auto;
 }
 
 .robo__table{
@@ -108,4 +108,14 @@ z-index: 80;
 }
 /*-----смещения конец--------*/
 
+@media screen and (max-width: 1024px) {
+	.robo__description{
+		margin-right: 46px
+	}
+}
 
+@media screen and (max-width: 768px) {
+	.robo__description{
+		margin-right: 35px
+	}
+}

@@ -6,7 +6,8 @@
 }
 
 .pets__description{
-	margin-left: calc(100% - 822px);
+	margin: 0 53px 0 auto;
+
 }
 
 .pets__table{
@@ -65,4 +66,16 @@ display: inline-block;
 	bottom: 160px;
 	right: 0;
 	z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+	.pets__description{
+		margin-right: 46px
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.pets__description{
+		margin-right: 35px
+	}
 }
