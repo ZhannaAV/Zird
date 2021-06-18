@@ -1,3 +1,8 @@
+.header{
+	position: relative;
+	z-index: 2;
+}
+
 .header__navigation{
 	display: flex;
 	height: 42px;

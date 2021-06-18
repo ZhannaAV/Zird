@@ -108,14 +108,193 @@ z-index: 80;
 }
 /*-----смещения конец--------*/
 
+@media screen and (max-width: 1300px) {
+	.robo__img{
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 1265px) {
+	.robo__decor-lines{
+		display: none;
+	}
+	.robo__decor-bottom{
+		width: 533px;
+	}
+	.robo__table{
+		margin-bottom: -1079px;
+	}
+
+	.robo__item:nth-child(5n-4){
+		margin-left: 14%;
+		margin-right: 0;
+	}
+	.robo__item:nth-child(5n-3){
+		margin-left: 0;
+		margin-right: 14%;
+	}
+	.robo__item:nth-child(5n-2){
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.robo__item:nth-child(5n){
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.robo__item:nth-child(3){
+		margin-left: 0;
+		margin-right: 0;
+		transform:translateY(-156px);
+	}
+	.robo__item:nth-child(19){
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.robo__item:nth-child(n+6):nth-child(-n+7){
+		transform:translateY(-308px);
+	}
+	.robo__item:nth-child(n+8):nth-child(-n+10){
+		transform:translateY(-463px);
+	}
+	.robo__item:nth-child(n+11):nth-child(-n+12){
+		transform:translateY(-618px);
+	}
+	.robo__item:nth-child(n+13):nth-child(-n+15){
+		transform:translateY(-773px);
+	}
+	.robo__item:nth-child(n+16):nth-child(-n+17){
+		transform:translateY(-928px);
+	}
+	.robo__item:nth-child(n+18):nth-child(-n+20){
+		transform:translateY(-1084px);
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.robo__description{
 		margin-right: 46px
 	}
 }
 
+@media screen and (max-width: 960px) {
+	.robo__decor-bottom{
+		width: 270px;
+	}
+
+	.robo__table{
+		margin-bottom: -1865px;
+	}
+
+	.robo__item:nth-child(3n){
+		margin: 0 calc(50% - 150px);
+	}
+	.robo__item:nth-child(3n-2){
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.robo__item:nth-child(3n-1){
+		margin-left: 0;
+		margin-right: auto;
+	}
+	.robo__item:nth-child(n+4):nth-child(-n+5){
+		transform:translateY(-308px);
+	}
+	.robo__item:nth-child(6){
+		transform:translateY(-463px) !important;
+	}
+	.robo__item:nth-child(n+7):nth-child(-n+8){
+		transform:translateY(-618px);
+	}
+	.robo__item:nth-child(9){
+		transform:translateY(-773px)!important;
+	}
+	.robo__item:nth-child(n+10):nth-child(-n+11){
+		transform:translateY(-928px) !important;
+	}
+	.robo__item:nth-child(12){
+		transform:translateY(-1084px)!important;
+	}
+	.robo__item:nth-child(n+13):nth-child(-n+14){
+		transform:translateY(-1240px) !important;
+	}
+	.robo__item:nth-child(15){
+		transform:translateY(-1396px)!important;
+	}
+	.robo__item:nth-child(n+16):nth-child(-n+17){
+		transform:translateY(-1552px) !important;
+	}
+	.robo__item:nth-child(18){
+		transform:translateY(-1708px)!important;
+	}
+	.robo__item:nth-child(n+19):nth-child(-n+20){
+		transform:translateY(-1864px) !important;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.robo__description{
 		margin-right: 35px
+	}
+	.robo__decor-triangle{
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.robo__img{
+		width: 200px;
+	}
+	.robo__table{
+		margin-bottom: -1201px;
+	}
+
+	.robo__item:nth-child(3) {
+		transform: translateY(-100px) !important;
+	}
+
+	.robo__item:nth-child(n+4):nth-child(-n+5){
+		transform:translateY(-200px);
+	}
+	.robo__item:nth-child(6){
+		transform:translateY(-300px) !important;
+	}
+	.robo__item:nth-child(n+7):nth-child(-n+8){
+		transform:translateY(-400px);
+	}
+	.robo__item:nth-child(9){
+		transform:translateY(-500px)!important;
+	}
+	.robo__item:nth-child(n+10):nth-child(-n+11){
+		transform:translateY(-600px) !important;
+	}
+	.robo__item:nth-child(12){
+		transform:translateY(-700px)!important;
+	}
+	.robo__item:nth-child(n+13):nth-child(-n+14){
+		transform:translateY(-800px) !important;
+	}
+	.robo__item:nth-child(15){
+		transform:translateY(-900px)!important;
+	}
+	.robo__item:nth-child(n+16):nth-child(-n+17){
+		transform:translateY(-1000px) !important;
+	}
+	.robo__item:nth-child(18){
+		transform:translateY(-1100px)!important;
+	}
+	.robo__item:nth-child(n+19):nth-child(-n+20){
+		transform:translateY(-1200px) !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.robo__decor-bottom{
+		width: 152px;
+	}
+	.robo__img{
+		width: 150px;
+	}
+	.robo__table{
+		margin-bottom: -1100px;
 	}
 }

@@ -62,3 +62,15 @@
 	width: 560px;
 }
 }
+
+@media screen and (max-width: 650px) {
+	.description{
+		width: 405px;
+	}
+}
+
+@media screen and (max-width: 424px) {
+	.description{
+		width: 300px;
+	}
+}

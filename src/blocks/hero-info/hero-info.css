@@ -2,10 +2,10 @@
 	background-color: rgba(44,51,65,255);
 	opacity: .9;
 	width: 312px;
-	height: 234px;
+	/*min-height: 234px;*/
 	position: absolute;
-	top: 15%;
-	left: 60%;
+	top: 50%;
+	left: 0%;
 	box-sizing: border-box;
 	padding: 19px 8px 19px 14px;
 	z-index: 100;
@@ -36,4 +36,21 @@
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 12px;
+}
+
+@media screen and (max-width: 1300px) {
+	.hero-info{
+		width: 300px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.hero-info{
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.hero-info{
+		width: 150px;
+	}
 }
