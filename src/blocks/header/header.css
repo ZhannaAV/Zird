@@ -87,16 +87,18 @@
 	display: none;
 	margin-left: 20px;
 	position: relative;
-	overflow: visible;
 
 }
-
 .header__burger-img{
-	margin-top: 4px;
+	margin-top: 16px;
 }
 
-.header__burger-img:hover ~ .header__burger-navigalion{
-	display: block;
+#menu__toggle {
+	opacity: 0;
+}
+
+#menu__toggle:checked ~ .header__burger-navigalion{
+	visibility: visible;
 }
 
 .header__burger-navigalion{
@@ -104,25 +106,18 @@
 	width: 69px;
 	min-height: 133px;
 	background-color: rgba(25,33,48,255);
-	display: none;
-	top: 15px;
-	left: -30px;
+	visibility: hidden;
+	top: 31px;
+	left: -25px;
 	box-sizing: border-box;
 	padding: 6px 4px 14px;
-	overflow: visible;
-
-}
-
-.header__burger-list{
 	margin: 0;
-	padding-left: 0;
 	list-style: none;
 	font-size: 12px;
 	line-height: 15px;
 	text-align: right;
-	overflow: visible;
-
 }
+
 
 .header__burger-item + .header__burger-item{
 	margin-top: 10px;
