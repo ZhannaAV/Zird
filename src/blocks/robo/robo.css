@@ -51,6 +51,7 @@ z-index: 80;
 	right: 0;
 	top: 233px;
 	z-index: -1;
+	width: 160px;
 }
 
 .robo__decor-bottom{
@@ -238,6 +239,9 @@ z-index: 80;
 	.robo__decor-triangle{
 		width: 120px;
 	}
+	.robo__decor-right{
+		width: 95px;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -299,5 +303,9 @@ z-index: 80;
 	}
 	.robo__table{
 		margin-bottom: -1100px;
+	}
+	.robo__decor-right{
+		width: 55px;
+		top: 325px;
 	}
 }

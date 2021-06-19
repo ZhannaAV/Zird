@@ -211,7 +211,7 @@
 	}
 
 	.pets__item_place_left:nth-child(3) {
-		margin: 0 80px;
+		margin: 15px 80px;
 	}
 
 	.pets__item_place_right:first-child {
