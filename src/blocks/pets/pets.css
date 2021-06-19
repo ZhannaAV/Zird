@@ -68,9 +68,59 @@ display: inline-block;
 	z-index: -1;
 }
 
+@media screen and (max-width: 1279px) {
+	.pets__decor-line-right{
+		right: calc(100% - 930px);
+		bottom: 300px;
+	}
+	.pets__table_plase_left{
+		margin-left: 47px;
+	}
+	.pets__table_plase_right{
+		margin-left: 190px;
+		/*max-width: 760px;*/
+	}
+	.pets__item_place_right:first-child{
+		margin-left: 160px;
+	}
+	.pets__item_place_right:nth-child(4){
+		transform:translateX(0px) !important;
+		margin-right: 40px;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.pets__description{
 		margin-right: 46px
+	}
+}
+
+@media screen and (max-width: 955px) {
+	.pets__decor-line-right{
+		right: calc(100% - 708px);
+		bottom: 215px;
+	}
+	.pets__table_plase_left{
+		margin-left: 25px;
+		width: 728px;
+	}
+	.pets__item_place_left:nth-child(3){
+		margin-left: 146px;
+		transform: translateY(-35px);
+	}
+	.pets__item_place_left:nth-child(4){
+		transform: translateX(445px) translateY(-318px) !important;
+	}
+.pets__item_place_left:last-child{
+	transform: translateX(0px) translateY(-60px) !important;
+}
+
+	.pets__table_plase_right{
+		margin-left: 25px;
+		width: 728px;
+	}
+	.pets__item_place_right:first-child {
+		margin-left: 133px;
 	}
 }
 
@@ -78,4 +128,8 @@ display: inline-block;
 	.pets__description{
 		margin-right: 35px
 	}
+}
+
+@media screen and (max-width: 760px) {
+
 }
