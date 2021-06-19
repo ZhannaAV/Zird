@@ -288,11 +288,14 @@ z-index: 80;
 }
 
 @media screen and (max-width: 425px) {
+	.robo__description{
+		margin-right: 20px;
+	}
 	.robo__decor-bottom{
 		width: 152px;
 	}
 	.robo__img{
-		width: 155px;
+		width: 153px;
 	}
 	.robo__table{
 		margin-bottom: -1100px;
