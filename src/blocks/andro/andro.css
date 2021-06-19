@@ -176,6 +176,10 @@
 }
 
 @media screen and (max-width: 424px) {
+	.andro__description{
+		margin-left: auto;
+		margin-right: 0;
+	}
 	.andro__decor-top {
 		top: -18px;
 	}
