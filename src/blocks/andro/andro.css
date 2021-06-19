@@ -20,6 +20,21 @@
 
 .andro__item {
 	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+.andro__item-info {
+	display: none;
+	width: 300px;
+}
+
+.andro__img:hover ~ .andro__item-info {
+	display: block;
+}
+
+.andro__item:hover {
+	z-index: 80;
 }
 
 .andro__item:first-child {
@@ -73,146 +88,191 @@
 }
 
 @media screen and (max-width: 1230px) {
-	.andro__decor-top{
+	.andro__decor-top {
 		top: -70px;
 	}
-	.andro__decor-hexagons{
+
+	.andro__decor-hexagons {
 		width: 340px;
 		top: 863px;
 		left: 92px
 	}
-	.andro__table{
-		margin-right:100px;
+
+	.andro__table {
+		margin-right: 100px;
 		margin-left: auto;
 		width: 660px;
 		margin-bottom: -421px;
 	}
-	.andro__img{
+
+	.andro__img {
 		width: 263px;
 	}
+
+	.andro__item-info {
+		width: 263px;
+	}
+
 	.andro__item:first-child {
 		margin: 0 calc(50% - 135px);
 	}
 
 	.andro__item:nth-child(n+2):nth-child(-n+3) {
-		transform: translateY(-70px) translateX(64px)  ;
+		transform: translateY(-70px) translateX(64px);
 	}
+
 	.andro__item:nth-child(n+4):nth-child(-n+5) {
 		transform: translateY(-140px) translateX(195px);
 		margin: 0;
 	}
+
 	.andro__item:nth-child(6) {
 		transform: translateY(-210px);
 	}
+
 	.andro__item:nth-child(7) {
 		transform: translateY(-280px);
 		margin-left: 30%;
 	}
+
 	.andro__item:nth-child(n+8):nth-child(-n+9) {
 		transform: translateY(-350px) translateX(64px);
 	}
+
 	.andro__item:nth-child(10) {
 		margin: 0 calc(50% - 135px);
 		transform: translateY(-420px) !important;
 	}
 }
+
 @media screen and (max-width: 910px) {
-	.andro__decor-hexagons{
+	.andro__decor-hexagons {
 		width: 211px;
 		top: 1054px;
 		left: 58px
 	}
-	.andro__decor-top{
+
+	.andro__decor-top {
 		top: -50px;
 	}
 }
+
 @media screen and (max-width: 740px) {
-	.andro__decor-hexagons{
+	.andro__decor-hexagons {
 		display: none;
 	}
 
-.andro__img{
-	width: 200px;
-}
-	.andro__table{
-		margin:34px auto -331px;
+	.andro__img {
+		width: 200px;
+	}
+
+	.andro__item-info {
+		width: 200px;
+	}
+
+	.andro__table {
+		margin: 34px auto -331px;
 		width: 406px;
 	}
-	.andro__item:nth-child(3n-2){
+
+	.andro__item:nth-child(3n-2) {
 		margin-left: 100px !important;
 		margin-right: 100px !important;
 	}
+
 	.andro__item:nth-child(n+2):nth-child(-n+3) {
 		transform: translateY(-55px);
 	}
-	.andro__item:nth-child(4){
+
+	.andro__item:nth-child(4) {
 		transform: translateY(-110px) translateX(0px) !important;
 	}
-	.andro__item:nth-child(5){
+
+	.andro__item:nth-child(5) {
 		transform: translateY(-165px) translateX(0px) !important;
 	}
-	.andro__item:nth-child(6){
+
+	.andro__item:nth-child(6) {
 		margin: 0;
-		transform: translateY(-165px)!important;
+		transform: translateY(-165px) !important;
 	}
-	.andro__item:nth-child(7){
-		transform: translateY(-220px)!important;
+
+	.andro__item:nth-child(7) {
+		transform: translateY(-220px) !important;
 	}
+
 	.andro__item:nth-child(n+8):nth-child(-n+9) {
-		transform: translateY(-275px)!important;
+		transform: translateY(-275px) !important;
 	}
+
 	.andro__item:last-child {
-		transform: translateY(-330px)!important;
+		transform: translateY(-330px) !important;
 	}
 }
 
 @media screen and (max-width: 635px) {
-	.andro__decor-top{
+	.andro__decor-top {
 		top: -35px;
 	}
-	.andro__decor-bottom{
+
+	.andro__decor-bottom {
 		width: 208px;
 	}
 }
 
 @media screen and (max-width: 424px) {
-	.andro__description{
+	.andro__description {
 		margin-left: 20px;
 		margin-right: auto;
 	}
+
 	.andro__decor-top {
 		top: -18px;
 	}
-	.andro__img{
+
+	.andro__img {
 		width: 150px;
 	}
-	.andro__table{
+
+	.andro__item-info {
+		width: 150px;
+	}
+
+	.andro__table {
 		width: 318px;
 		margin-bottom: -243px;
 	}
-	.andro__item:nth-child(3n-2){
+
+	.andro__item:nth-child(3n-2) {
 		margin-left: 84px !important;
 		margin-right: 84px !important;
 	}
-	.andro__item:nth-child(3n-1){
+
+	.andro__item:nth-child(3n-1) {
 		margin-left: 10px !important;
 	}
+
 	.andro__item:nth-child(n+2):nth-child(-n+3) {
 		transform: translateY(-42px);
 	}
-	.andro__item:nth-child(4){
+
+	.andro__item:nth-child(4) {
 		transform: translateY(-82px) !important;
 	}
+
 	.andro__item:nth-child(n+5):nth-child(-n+6) {
 		transform: translateY(-122px) !important;
 	}
-	.andro__item:nth-child(7){
+
+	.andro__item:nth-child(7) {
 		transform: translateY(-162px) !important;
 	}
+
 	.andro__item:nth-child(n+8):nth-child(-n+9) {
 		transform: translateY(-202px) !important;
 	}
-	.andro__item:last-child{
+
+	.andro__item:last-child {
 		transform: translateY(-242px) !important;
 	}
 }
