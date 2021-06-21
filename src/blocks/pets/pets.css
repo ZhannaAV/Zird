@@ -20,17 +20,16 @@
 .pets__table_plase_left {
 	margin-left: 56px;
 	margin-top: 140px;
-	letter-spacing: 15px;
 	margin-bottom: -65px;
 }
 
 .pets__table_plase_right {
 	margin-left: 349px;
-	letter-spacing: 8px;
 }
 
 .pets__item {
 	display: inline-block;
+	margin: 3px;
 }
 
 .pets__item:nth-child(n+4):nth-child(-n+5) {
@@ -81,7 +80,6 @@
 
 	.pets__table_plase_right {
 		margin-left: 190px;
-		/*max-width: 760px;*/
 	}
 
 	.pets__item_place_right:first-child {
@@ -159,14 +157,13 @@
 	}
 
 	.pets__table_plase_right, .pets__table_plase_left {
-		width: 410px;
+		width: 416px;
 		margin-left: auto;
 		margin-right: auto;
-		letter-spacing: 5px;
 	}
 
 	.pets__item_place_left:nth-child(3) {
-		margin: 15px 105px;
+		margin: 3px 105px;
 	}
 
 	.pets__item_place_left:nth-child(4) {
@@ -175,15 +172,15 @@
 
 	.pets__item_place_left:last-child {
 		transform: translateY(-55px) !important;
-		margin-left: 0;
+		margin-left: 3px;
 	}
 
 	.pets__item_place_right:first-child {
-		margin: 0 105px;
+		margin: 3px 105px;
 	}
 
 	.pets__item_place_right:nth-child(4) {
-		margin: 0;
+		margin: 3px;
 	}
 
 	.pets__item_place_right:last-child {
@@ -202,19 +199,27 @@
 	}
 
 	.pets__img {
-		width: 150px;
+		width: 145px;
 	}
 
 	.pets__table_plase_right, .pets__table_plase_left {
-		width: 310px;
-		letter-spacing: 5px;
+		width: 316px;
+		text-align: center;
+	}
+
+	.pets__item_place_left{
+		margin: 5px;
 	}
 
 	.pets__item_place_left:nth-child(3) {
-		margin: 15px 80px;
+		margin: 5px 85px;
+	}
+
+	.pets__item_place_right{
+		margin: 0;
 	}
 
 	.pets__item_place_right:first-child {
-		margin: 0 80px;
+		margin: 0px 85px;
 	}
 }
